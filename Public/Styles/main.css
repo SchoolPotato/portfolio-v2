@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+main,
+article,
+aside,
+figure,
+footer,
+header,
+nav,
+section,
+details,
+summary {
+  display: block;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+img,
+object,
+embed {
+  max-width: 100%;
+  height: auto;
+}
+
+html {
+  overflow-y: scroll;
+}
+
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+blockquote::before, blockquote::after,
+q::before,
+q::after {
+  content: "";
+  content: none;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted #222;
+  cursor: help;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+th {
+  font-weight: bold;
+  vertical-align: bottom;
+}
+
+td {
+  font-weight: normal;
+  vertical-align: top;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input,
+select {
+  vertical-align: middle;
+}
+
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  white-space: pre-line;
+  word-wrap: break-word;
+}
+
+input[type=radio] {
+  vertical-align: text-bottom;
+}
+
+input[type=checkbox] {
+  vertical-align: bottom;
+}
+
+.ie7 input[type=checkbox] {
+  vertical-align: baseline;
+}
+
+.ie6 input {
+  vertical-align: text-bottom;
+}
+
+select,
+input,
+textarea {
+  font-size: 99%;
+}
+
+small {
+  font-size: 85%;
+}
+
+strong {
+  font-weight: bold;
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+.clicklable,
+label,
+input[type=button],
+input[type=submit],
+input[type=file],
+button {
+  cursor: pointer;
+}
+
+button,
+input[type=button] {
+  width: auto;
+  overflow: hidden;
+}
+
+.ie7 img {
+  -ms-interpolation-mode: bicubic;
+}
+
+.clearfix::after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+/*  .menu li {
+        @include absolute(top 100% left 0)
+    }
+    .sticky-bar {
+        @include fixed(top 0 left 0)
+    }
+    .submenu{
+        @include relative()
+    }
+*/
+/* dark shades of primary color*/
+/* The primary/main color */
+/* lighter shades of primary color */
+/* dark shades of secondary color*/
+/* secondary color */
+/* lighter shades of secondary color */
+/* darkest grey - used for headings */
+/* grey used for paragraphs */
+/* lightest grey - used for outlines */
+/* Other Colors used */
+.header nav {
+  align-self: center;
+  background-image: url("../Images/slice1.png"), url("../Images/slice3.png"), url("../Images/slice2.png");
+  background-repeat: no-repeat, no-repeat, repeat;
+  background-size: contain;
+  height: 6rem;
+}
+.header nav h1 {
+  padding: 1rem;
+  padding-top: 2rem;
+}
+
+* {
+  font-family: "Press Start 2P", cursive;
+  font-weight: normal;
+}
+
+/*# sourceMappingURL=main.css.map */
